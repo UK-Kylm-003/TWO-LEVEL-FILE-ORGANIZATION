@@ -62,7 +62,7 @@ void main()
 
                     if (!strcmp(ser, d[i].file[j]))
                     {
-                        printf("%s is removed\n", d[i].file[j]);
+                        printf("%s is found\n", d[i].file[j]);
                         strcpy(d[i].file[j], d[i].file[d[i].findex - 1]);
                         d[i].findex--;
                         found = 1;
